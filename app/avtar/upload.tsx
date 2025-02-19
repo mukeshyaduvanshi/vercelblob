@@ -23,7 +23,7 @@ export default function UploadImage() {
 
           const newBlob = await upload(file.name, file, {
             access: "public",
-            handleUploadUrl: "/api/upload",
+            handleUploadUrl: "pages/api/upload",
           });
 
           setBlob(newBlob);

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import UploadImage from "./avtar/upload";
 
 export default function Home() {
